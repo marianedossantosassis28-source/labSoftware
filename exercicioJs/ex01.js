@@ -4,7 +4,7 @@
 // Tenho (sua idade)
 // Estou aprendendo JavaScript
 
-let idade = 17
+let idade = 18
 
 console.log("Meu nome é: Mariane");
 console.log("Tenho %d anos", idade);
