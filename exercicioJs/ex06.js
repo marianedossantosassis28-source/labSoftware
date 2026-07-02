@@ -9,14 +9,14 @@
 // Mostre o preço final juntamente com a possibilidae da pessoa poder ou não comprar o produto.
 
 let resultado = 120;
-let desconto = 0.20;
+let desconto = 0.2;
 let dinheirodisponivel = 30;
 let preçofinal = resultado * (1 - desconto);
 
 console.log("preçofinal do produto: &d preçofinal * dinheirodisponivel");
 
-if (dinheirodisponivel >= preçofinal); {
-    console.log("Compra aprovada!");
+if (dinheirodisponivel >= preçofinal) {
+  console.log("Compra aprovada!");
 } else {
-    console.log("Não é possível comprar");
+    console.log("Dinheiro insuficiente");
 }

@@ -28,9 +28,9 @@ let total = preço * quantidade;
 
 if(total > 500){
     total = total * 0.85;
-    console.log("produto é %d:" produto);
-    console.log("Total com 15% de desconto %d": total);
+    console.log("produto é %d: produto");
+    console.log("Total com 15% de desconto %d: total");
 } else{
-    console.log("produto é %d:" produto);
-    console.log("Total (sem desconto)%d": total);
+    console.log("produto é %d: produto");
+    console.log("Total (sem desconto)%d: total");
 }

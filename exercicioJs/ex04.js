@@ -10,6 +10,6 @@
 let nota1 = 3;
 let nota2 = 10;
 
-let media = (valor1 + valor2) /2;
+let media = (nota1 + nota2) /2;
 
 console.log(media);
