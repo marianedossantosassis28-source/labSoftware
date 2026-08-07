@@ -20,3 +20,18 @@
 // Sugerir: "Reduzir nível de dificuldade"
 
 // Mostre a porcentagem de acertos e a sugestão para o fisioterapeuta no console.
+
+const acertos = 16;
+const totalMovimentos = 20;
+
+const porcentagem = (acertos / totalMovimentos) * 100;
+
+console.log("Porcentagem de acertos: " + porcentagem + "%d");
+
+if(porcentagem >= 80){
+    console.log("Aumentar nível de dificuldade");
+} else if(porcentagem >= 50 && porcentagem < 80){
+    console.log("Manter nível atual");
+} else{
+    console.log("Reduzir níveç de dificuldade");
+}

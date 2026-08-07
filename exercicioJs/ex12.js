@@ -12,3 +12,14 @@
 // Se a presença for maior ou igual a 75% E a média for < 6 -> Recuperação
 
 // Mostre a situação final do aluno no console.
+
+const presenca = 80;
+const mediaFinal = 7.5;
+
+if(presenca < 75) {
+    console.log("Reprovado por falta");
+} else if(presenca >= 75 && mediaFinal >= 6) {
+    console.log("Aprovado");
+} else {
+    console.log("Recuperação")
+}
