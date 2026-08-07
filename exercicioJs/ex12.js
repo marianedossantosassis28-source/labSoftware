@@ -13,7 +13,7 @@
 
 // Mostre a situação final do aluno no console.
 
-const presenca = 80;
+const presenca = 60;
 const mediaFinal = 7.5;
 
 if(presenca < 75) {

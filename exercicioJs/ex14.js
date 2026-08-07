@@ -26,7 +26,7 @@ const totalMovimentos = 20;
 
 const porcentagem = (acertos / totalMovimentos) * 100;
 
-console.log("Porcentagem de acertos: " + porcentagem + "%d");
+console.log("Porcentagem de acertos: " + porcentagem);
 
 if(porcentagem >= 80){
     console.log("Aumentar nível de dificuldade");
