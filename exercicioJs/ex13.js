@@ -15,3 +15,15 @@
 // Caso contrário -> Falha.
 
 // Imprima o resultado da ação no console.
+
+const valorDado = 10;
+const modificador = 3;
+const dificuldade = 15;
+
+const resultadoTotal = valorDado + modificador;
+
+if(resultadoTotal >= dificuldade){
+    console.log("sucesso");
+} else {
+    console.log("falha");
+}

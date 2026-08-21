@@ -8,3 +8,9 @@
 
 // Mostre no console concatenando as variáveis:
 // O personagem (nomePersonagem) é um (classe) de nível (nivel).
+
+const nomePersonagem = "Homem aranha";
+const classe = "Bárbaro";
+const nivel = "5"; 
+
+console.log("O personagem" + nomePersonagem + " é um" + classe + "de nivel" + nivel)
