@@ -33,5 +33,5 @@ if(porcentagem >= 80){
 } else if(porcentagem >= 50 && porcentagem < 80){
     console.log("Manter nível atual");
 } else{
-    console.log("Reduzir níveç de dificuldade");
+    console.log("Reduzir nível de dificuldade");
 }
